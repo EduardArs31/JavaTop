@@ -4,7 +4,7 @@ public class Product {
     private Integer id; // ID продукта
     private String title; // Название продукта
     private int price; // Цена продукта
-    private String category; // Категория продукта
+    private String category; // Категория продукта.
 
     // Конструктор для создания нового продукта с заданными параметрами
     public Product(Integer id, String title, int price, String category) {

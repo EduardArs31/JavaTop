@@ -9,7 +9,7 @@ public enum ProductCategory {
 
     private final String productCategory; // Название категории продукта
 
-    // Конструктор для инициализации названия категории
+    // Конструктор для инициализации названия категории.
     ProductCategory(String productCategory) {
         this.productCategory = productCategory;
     }

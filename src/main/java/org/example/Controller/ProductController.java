@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ProductController {
     private static final Logger log = LoggerFactory.getLogger(ProductController.class); // Логгер для логирования событий
 
-    private final ProductService productService; // Сервис для управления продуктами
+    private final ProductService productService; // Сервис для управления продуктами.
     private boolean cycleProductProgram = true; // Флаг для управления циклом программы продуктов
 
     Scanner sc = new Scanner(System.in); // Сканер для ввода данных с консоли

@@ -12,7 +12,7 @@ public class ProductService {
     private final ProductRepository productRepository; // Репозиторий для управления продуктами
 
     public ProductService(ProductRepository productRepository) {
-        this.productRepository = productRepository; // Инициализация репозитория
+        this.productRepository = productRepository; // Инициализация репозитория.
     }
 
     /**

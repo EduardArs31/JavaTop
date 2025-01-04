@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MainController {
     private static final Logger log = LoggerFactory.getLogger(MainController.class); // Логгер для логирования событий
 
-    private boolean cycleProgram = true; // Флаг для управления циклом программы
+    private boolean cycleProgram = true; // Флаг для управления циклом программы.
     private final OrderController orderController; // Контроллер для управления заказами
     private final ProductController productController; // Контроллер для управления продуктами
 

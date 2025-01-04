@@ -18,7 +18,7 @@ public class ProductRepository {
 
     public ProductRepository(String filePath, String idFilePath) {
         this.filePath = Path.of(filePath); // Инициализация пути к файлу с продуктами
-        this.idFilePath = Path.of(idFilePath); // Инициализация пути к файлу с ID продуктов
+        this.idFilePath = Path.of(idFilePath); // Инициализация пути к файлу с ID продуктов.
     }
 
     /**
