@@ -1,0 +1,16 @@
+2025-01-04 01:12:58 [main] INFO  org.example.Main - Это информационное сообщение
+2025-01-04 01:12:58 [main] WARN  org.example.Main - Это предупреждающее сообщение
+2025-01-04 01:12:58 [main] ERROR org.example.Main - Это сообщение об ошибке
+2025-01-04 01:13:06 [main] INFO  o.example.Controller.MainController - Начало работы с клиентами
+2025-01-04 01:13:20 [main] INFO  o.example.Controller.MainController - Начало работы с клиентами
+2025-01-04 13:58:02 [main] INFO  org.example.Main - Это информационное сообщение
+2025-01-04 13:58:02 [main] WARN  org.example.Main - Это предупреждающее сообщение
+2025-01-04 13:58:02 [main] ERROR org.example.Main - Это сообщение об ошибке
+2025-01-04 13:58:09 [main] INFO  o.example.Controller.MainController - Начало управления продуктом
+2025-01-04 13:59:23 [main] INFO  org.example.Service.ProductService - Добавление нового продукта: title=Толстовка, price=3000, category=Одежда
+2025-01-04 13:59:23 [main] INFO  o.e.Repository.ProductRepository - Загрузка продуктов из файла: src\main\resources\products.txt
+2025-01-04 13:59:23 [main] INFO  o.e.Repository.ProductRepository - Сохранение продуктов в файл: src\main\resources\products.txt
+2025-01-04 13:59:23 [main] INFO  o.e.Controller.ProductController - Добавленный продукт: 7;Толстовка;3000;Одежда
+2025-01-04 13:59:47 [main] INFO  org.example.Service.ProductService - Получение всех продуктов
+2025-01-04 13:59:47 [main] INFO  o.e.Repository.ProductRepository - Загрузка продуктов из файла: src\main\resources\products.txt
+2025-01-04 13:59:47 [main] INFO  o.e.Controller.ProductController - Все продукты: [1;Мандарины;200;Продукты, 2;Смартфон;20000;Электроника, 3;Джинсы;2000;Одежда, 4;Молоко;100;Продукты, 5;Ноутбук;150000;Электроника, 6;Футболка;1500;Одежда, 7;Толстовка;3000;Одежда]
