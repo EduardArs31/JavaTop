@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         log.info("Это информационное сообщение"); // Логирование информационного сообщения
         log.warn("Это предупреждающее сообщение"); // Логирование предупреждающего сообщения
-        log.error("Это сообщение об ошибке"); // Логирование сообщения об ошибке
+        log.error("Это сообщение об ошибке"); // Логирование сообщения об ошибке.
 
         CustomerRepository customerRepository = new CustomerRepository(); // Создание экземпляра репозитория для управления покупателями
         OrderRepository orderRepository = new OrderRepository(); // Создание экземпляра репозитория для управления заказами

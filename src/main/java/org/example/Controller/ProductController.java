@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ProductController {
     private static final Logger log = LoggerFactory.getLogger(ProductController.class); // Логгер для логирования событий
 
-    private final ProductService productService; // Сервис для управления продуктами
+    private final ProductService productService; // Сервис для управления продуктами.
     private boolean cycleProductProgram = true; // Флаг для управления циклом программы продуктов
 
     Scanner sc = new Scanner(System.in); // Сканер для ввода данных с консоли
@@ -20,7 +20,7 @@ public class ProductController {
     private String productCategory; // Категория продукта
 
     public ProductController(ProductService productService) {
-        this.productService = productService;
+        this.productService = productService; // Инициализация сервиса для управления продуктами
     }
 
     /**
@@ -30,7 +30,7 @@ public class ProductController {
      *                       Метод запускает взаимодействие с Product.
      */
     public void startProduct(boolean isCycleProgram) {
-        cycleProductProgram = isCycleProgram;
+        cycleProductProgram = isCycleProgram; // Установка флага для управления циклом программы продуктов
         while (cycleProductProgram) { // Цикл выполняется, пока cycleProductProgram равен true
             int choice;
             System.out.println("===== Управление товарами =====");
