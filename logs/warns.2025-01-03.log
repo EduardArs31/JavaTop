@@ -1,0 +1,6 @@
+2025-01-03 21:45:10 [main] WARN  org.example.Main - Это предупреждающее сообщение
+2025-01-03 21:45:10 [main] ERROR org.example.Main - Это сообщение об ошибке
+2025-01-03 21:46:50 [main] WARN  org.example.Main - Это предупреждающее сообщение
+2025-01-03 21:46:50 [main] ERROR org.example.Main - Это сообщение об ошибке
+2025-01-03 21:46:53 [main] WARN  org.example.Main - Это предупреждающее сообщение
+2025-01-03 21:46:53 [main] ERROR org.example.Main - Это сообщение об ошибке
